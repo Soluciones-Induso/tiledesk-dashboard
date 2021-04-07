@@ -1,21 +1,19 @@
 {
-  "t2y12PruGU9wUtEGzBJfolMIgK": "${FEATURES_TOKEN}",
-  "widgetUrl": "${WIDGET_LOCATION}",
-  "botcredendialsURL": "${BOT_CREDENTIAL_URL}",
-  "SERVER_BASE_URL": "${SERVER_BASE_URL}",
-  "CHAT_BASE_URL": "${CHAT_BASE_URL}",
-  "testsiteBaseUrl": "${WIDGET_TEST_LOCATION}",
-  "wsUrl": "${WS_URL}",
-  "wsUrlRel": "${WS_URL_RELATIVE}",
-  "brandSrc": "${BRAND_SRC}",
-  "globalRemoteJSSrc":"${REMOTE_JS_SRC}",
+  "t2y12PruGU9wUtEGzBJfolMIgK": "PAY:F-ANA:F-ACT:F-TRI:F-GRO:F-DEP:T-OPH:T-MTL:F-DGF:T-NAT:T-CAR:F-V1L:T-PSA:T-MTT:T-SUP:T-LBS:T-APP:T-DEV:T-NOT:T",
+  "widgetUrl": "http://localhost:4200/launch.js",
+  "botcredendialsURL": "",
+  "SERVER_BASE_URL": "http://localhost:3000/",
+  "CHAT_BASE_URL": "http://localhost:8080/",
+  "testsiteBaseUrl": "http://localhost:4200/assets/test_widget_page/index.html",
+  "wsUrl": "ws://localhost:3000/",
+  "wsUrlRel": "/",
   "firebase": {
-      "apiKey": "${FIREBASE_APIKEY}",
-      "authDomain": "${FIREBASE_AUTHDOMAIN}",
-      "databaseURL": "${FIREBASE_DATABASEURL}",
-      "projectId": "${FIREBASE_PROJECT_ID}",
-      "storageBucket": "${FIREBASE_STORAGEBUCKET}",
-      "messagingSenderId": "${FIREBASE_MESSAGINGSENDERID}",
-      "appId": "${FIREBASE_APP_ID}"
+      "apiKey": "AIzaSyCCXlqBMquWntJLBseu6qNTM-mTrMfYFW8",
+      "authDomain": "tiledesk-facture-dev.firebaseapp.com",
+      "databaseURL": "https://tiledesk-solucionesinduso-default-rtdb.firebaseio.com",
+      "projectId": "tiledesk-facture-dev",
+      "storageBucket": "tiledesk-facture-dev.appspot.com",
+      "messagingSenderId": "82084183603",
+      "appId": "1:82084183603:web:d04b7e390ddd2d8b342d46"
   }
 }
