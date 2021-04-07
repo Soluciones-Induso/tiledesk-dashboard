@@ -284,6 +284,10 @@ export class SignupComponent implements OnInit, AfterViewInit {
               this.signin_errormsg = `An account with the email ${this.userForm.value['email']} already exist`;
               this.notify.showToast(this.signin_errormsg, 4, 'report_problem')
 
+            } else if (this.currentLang === 'es') {
+              this.signin_errormsg = `Una cuenta con el correo ${this.userForm.value['email']} ya existe`;
+              this.notify.showToast(this.signin_errormsg, 4, 'report_problem')
+
             } else if (this.currentLang !== 'en' && this.currentLang !== 'it') {
               this.signin_errormsg = `An account with the email ${this.userForm.value['email']} already exist`;
               this.notify.showToast(this.signin_errormsg, 4, 'report_problem')

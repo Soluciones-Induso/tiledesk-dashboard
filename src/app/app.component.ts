@@ -114,7 +114,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
         localStorage.removeItem('firebase:previous_websocket_failure');
 
         console.log('!!! =========== HELLO APP.COMP (constructor) ===========')
-        translate.setDefaultLang('en');
+        translate.setDefaultLang('es');
 
         const browserLang = this.translate.getBrowserLang();
         console.log('!!! ===== HELLO APP.COMP ===== BRS LANG ', browserLang)
@@ -126,6 +126,10 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
             } else if (browserLang === 'de') {
                 this.translate.use('de');
                 moment.locale('de')
+
+            } else if (browserLang === 'es') {
+                this.translate.use('es');
+                moment.locale('es')
 
             } else {
                 this.translate.use('en');
