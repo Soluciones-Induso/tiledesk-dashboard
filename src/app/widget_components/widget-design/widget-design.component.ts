@@ -161,11 +161,11 @@ export class WidgetDesignComponent extends WidgetDesignBaseComponent implements 
 
   widget_preview_selected = '0000';
   widget_preview_status = [
-    { id: '0000', name: 'Home' },
-    { id: '0001', name: 'Home with converations' },
+    { id: '0000', name: 'Casa' },
+    { id: '0001', name: 'Casa con conversaciones' },
     { id: '0002', name: 'Chat' },
-    { id: '0003', name: 'Callout' },
-    { id: '0004', name: 'Closed' }
+    { id: '0003', name: 'Gritar' },
+    { id: '0004', name: 'Cerrado' }
   ];
 
   lang: any;

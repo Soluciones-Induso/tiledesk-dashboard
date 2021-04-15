@@ -90,7 +90,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "chat21:build"
+            "browserTarget": "chat21:build",
+            "port": 4500
           },
           "configurations": {
             "production": {

@@ -331,7 +331,7 @@ input[type="text"] {
   width: 100%;
   transform: skewY(-12deg);
   transform-origin: 0px center;
-  background: $brand-recent-project-bckgrnd;
+  background: #042245;
   // background: linear-gradient(90deg,#0e2a3b 0,#34306b); // new
   height: 500px;
   left: 0;
@@ -362,13 +362,13 @@ input[type="text"] {
 }
 
 .card-add-project-icon {
-  color: $brand-secodary;
+  color: #e99931;
   text-align: center;
   padding-top: 25px;
 }
 
 .card-add-project-text {
-  color: $brand-secodary;
+  color: #e99931;
   text-align: center;
   margin-bottom: 15px;
   font-family: "Google Sans", sans-serif !important;

@@ -2,15 +2,15 @@
     <i class="material-icons" style="vertical-align: middle !important; cursor: pointer;" (click)="goBack()">keyboard_arrow_left</i>
     {{ "Hours" | translate }}
 </div> -->
-<p style="z-index: 1050;position: relative;margin-top:6px; padding-left:30px" class="navbar-brand">
+<p style="z-index: 1050;position: relative;margin-top:6px; padding-left:30px; font-weight: bold;" class="navbar-brand">
   {{ "Hours" | translate }}
 </p>
-<div class="main-content" style="padding-top:0px">
+<div class="main-content" style="padding-top:0px; background: aliceblue;">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
 
-        <div class="card" style="padding-bottom: 25px;">
+        <div class="card" style="padding-bottom: 25px; border-radius: 20px;">
 
           <loading-spinner *ngIf="showSpinner"></loading-spinner>
 
@@ -136,7 +136,7 @@
 
             <div class="row">
               <div class="col-md-12">
-                <div class="card" [ngClass]="{'card_disabled' : !isActiveOperatingHours}">
+                <div class="card" style="background: #f6fcff; border-radius: 20px;" [ngClass]="{'card_disabled' : !isActiveOperatingHours}">
 
                   <div class="card-content table-responsive">
                     <table class="table table-hover oh-table">
@@ -412,7 +412,7 @@
 
             <div class="row">
               <div class="col-md-12">
-                <button class="btn btn-primary" (click)="updateProject()">
+                <button class="btn btn-primary" style="float: right;" (click)="updateProject()">
                   <!-- {{ "HoursPage.UpdateHours" | translate }} -->
                   {{ "Save" | translate }}
                 </button>

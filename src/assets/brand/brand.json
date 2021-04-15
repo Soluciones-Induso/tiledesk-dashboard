@@ -1,12 +1,12 @@
 {
-    "metaTitle": "Dashboard de Soporte Tiledesk",
-    "favicon__url": "https://tiledesk.com/tiledesk-favicon.png",
-    "company_name": "Tiledesk",
-    "company_site_name": "tiledesk.com",
+    "metaTitle": "Soporte de Facture.cr",
+    "favicon__url": "assets/img/logos/logo.png",
+    "company_name": "Facture.cr",
+    "company_site_name": "Facture.cr.com",
     "company_site_url": "https://www.tiledesk.com",
-    "company_logo_white__url": "assets/img/logos/tiledesk-logo_white_orange.svg",
-    "company_logo_black__url": "assets/img/logos/tiledesk_2.0_logo_black_v2.svg",
-    "company_logo_allwhite__url": "assets/img/logos/tiledesk_2.0_logo_all_white_v2.svg",
+    "company_logo_white__url": "assets/img/logos/logo.png",
+    "company_logo_black__url": "assets/img/logos/logo.png",
+    "company_logo_allwhite__url": "assets/img/logos/logo.png",
     "sidebar__hide_changelog_rocket": true,
     "privacy_policy_link_text": "Política de privacidad",
     "privacy_policy_url": "https://www.tiledesk.com/privacy.html",
@@ -24,12 +24,12 @@
         "display_terms_and_conditions_link": true
     },
     "handle_invitation_page": {
-        "company_logo_45x45": "assets/img/logos/tiledesk-solo-logo.png"
+        "company_logo_45x45": "assets/img/logos/logo.png"
     },
     "wizard_create_project_page": {
-        "logo_x_rocket": "assets/img/logos/logo_x_rocket4x4.svg"
+        "logo_x_rocket": "assets/img/logos/logo.png"
     },
     "wizard_install_widget_page": {
-        "logo_on_rocket": "assets/img/logos/tiledesk-solo-logo.png"
+        "logo_on_rocket": "assets/img/logos/logo.png"
     }
 }
