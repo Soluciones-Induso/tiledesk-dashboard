@@ -1,9 +1,9 @@
 <p style="z-index: 1050;position: relative;margin-top:6px; padding-left:30px" class="navbar-brand">
   <!-- {{ "Departments" | translate }} -->
-  <span *ngIf="isVisibleDEP"> {{'RoutingAndDepts' | translate}} </span>
-  <span *ngIf="!isVisibleDEP"> Routing </span>
+  <span *ngIf="isVisibleDEP" style="font-weight: bold;"> {{'RoutingAndDepts' | translate}} </span>
+  <span *ngIf="!isVisibleDEP" style="font-weight: bold;"> Rutas & Departamentos </span>
 </p>
-<div class="main-content" style="padding-top:0px">
+<div class="main-content" style="padding-top:0px; background: aliceblue;">
   <div class="container-fluid">
 
 
@@ -12,7 +12,7 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
 
 
-        <div class="card card--no-border" style="margin-top: 5px;">
+        <div class="card card--no-border" style="margin-top: 5px; border-radius: 15px;">
 
           <!--
           // ---------------------------------------------------
@@ -71,7 +71,7 @@
                 <div class="col-xs-12">
                   <h3 class="table-title--underlined">
                     <span class="table-title--underline">
-                      Routing
+                      Enrutamiento
                     </span>
                   </h3>
                 </div>
@@ -657,7 +657,7 @@
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
-        <div class="card" style="padding-top: 8px;margin-top: 5px;">
+        <div class="card" style="padding-top: 8px;margin-top: 5px; border-radius: 15px;">
           <div class="card-content" style="padding-top: 0px;">
             <h4 class="card-title" style="text-transform: none; color: #566787; font-weight:400; margin-bottom: 15px">
               {{ "RoutingPage.QuickTips" | translate }}
@@ -670,7 +670,7 @@
               {{ "DeptQuickTips_2" | translate }}
             </p>
             <p class="title-attribute" style="margin-bottom: 3px">
-              Default Department
+              Departamento predeterminado
             </p>
             <p style="color:#7695a5">
               {{ "DeptQuickTips_3" | translate }}
@@ -684,7 +684,7 @@
 
             <ng-container *ngIf="isVisibleDEP">
               <p class="title-attribute" style="margin-bottom: 3px">
-                Widget & Routing
+                Widget y enrutamiento
               </p>
               <p style="color:#7695a5">
                 {{ "DeptQuickTips_6" | translate }}

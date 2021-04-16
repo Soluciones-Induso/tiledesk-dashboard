@@ -1112,7 +1112,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   goToChangelogBlog() {
-    const url = 'https://tiledesk.com/tiledesk-changelog'
+    const url = 'https://facture.cr/app/modules/ayuda/'
     window.open(url, '_blank');
     this.usersLocalDbService.savChangelogDate()
     this.hidechangelogrocket = true;

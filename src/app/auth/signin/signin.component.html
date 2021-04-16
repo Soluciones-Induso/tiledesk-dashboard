@@ -41,7 +41,7 @@
               <!-- height: auto; margin-top: 3px; margin-left: 30px;" -->
               <!-- max-width: 280px; -->
               <!-- src="assets/img/logos/tiledesk_2.0_logo_all_white_v2.svg" -->
-              <img [src]="companyLogoAllWithe_Url" class="img-fluid" style="width: 90%;
+              <img src="assets/img/logos/facture_textb.png" class="img-fluid" style="width: 90%;
               margin-top: 30px;
               margin-bottom: 30px;" />
             </a>
@@ -67,9 +67,7 @@
         <div *ngIf="isVisibleV1L === true" style="margin:auto;width:350px; font-family: 'Montserrat', sans-serif; color:#fff; font-size:16px; line-height: 1.5em;
       font-weight: 400; letter-spacing: 2px;padding-top: 40px; text-align: center;">
 
-          {{ 'IfYouWantToLoginToTheOldVersion' | translate}}
-          <span style="text-decoration:underline; cursor: pointer;text-transform: lowercase;" (click)="goToTiledekV1()">
-            {{'ClickHere' | translate}} </span>
+          La creacion de la cuenta es necesaria para la invitacion por medio de correo del Coordinador del proyecto.
         </div>
 
         <div class="round-div"> </div>
@@ -160,7 +158,7 @@
           <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 400;">
             {{ "SignInTo" | translate}}
             <!-- {{ "SignIn" | translate}} -->
-            {{ company_name }}
+            Facture.Cr
           </h2>
           <!-- <img src="assets/img/logos/tiledesk_2.0_logo_black_v2.svg" class="img-fluid" style="max-width: 280px;
           margin-top: 30px;
@@ -169,7 +167,7 @@
         <div class="login-container">
           <form [formGroup]="userForm" (ngSubmit)="signin()">
 
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="email" class="input" formControlName="email" id="email" required autocapitalize="off"
               spellcheck="false">
 
@@ -178,7 +176,7 @@
                 {{ formErrors.email }}
               </div>
 
-            <label for="password">Password</label>
+            <label for="password">Contraseña:</label>
             <input type="password" id="password" class="input" formControlName="password" required>
 
             <div *ngIf="formErrors.password" class="is-danger" translate>

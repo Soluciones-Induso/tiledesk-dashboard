@@ -1,5 +1,5 @@
-<p style="z-index: 1050;position: relative;margin-top:6px; padding-left:30px" class="navbar-brand">
-  Home
+<p style="z-index: 1050;position: relative;margin-top:6px; padding-left:30px; font-weight: bold;" class="navbar-brand">
+  Inicio
   <!-- <button (click)="sumuptest()" type="button">  test  </button> -->
 </p>
 
@@ -13,7 +13,7 @@
   <div class="row" style=" margin-left: -15px; margin-right: -15px;">
     <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;  margin-top: -25px;">
       <div class="n-header-home">
-        <h2 class="n-header-home-title">
+        <h2 class="n-header-home-title" style="text-align: center; background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(72 103 154), rgba(0, 0, 0, 0)); text-shadow: -1px 4px 3px #000000;">
           {{ prjct_name }}
 
           <!-- // PLAN TYPE BADGE -->
@@ -35,8 +35,8 @@
         </h2>
 
         <!-- // HUMAN AGENTS -->
-        <div class="project-temmates" style="align-items: center;display: flex; flex-wrap: wrap;">
-          <div class="served-by-desktop-a--home-header">
+        <div class="project-temmates" style="align-items: center;display: flex; flex-wrap: wrap;justify-content: center!important;">
+          <div class="served-by-desktop-a--home-header" style="box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 40%);">
 
             <ng-container *ngIf="!DISPLAY_TEAMMATES">
               <div class="served-by-desktop-b">
@@ -127,7 +127,7 @@
           </div>
 
           <!-- /// CHATBOT AGENTS -->
-          <div class="served-by-desktop-a--home-header">
+          <div class="served-by-desktop-a--home-header" style="box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 40%);">
             <ng-container *ngIf="!DISPLAY_CHATBOTS">
               <div class="served-by-desktop-b">
                 <div class="served-by-desktop-d">
@@ -249,7 +249,7 @@
           // ---------------------------------------------------
           // @ Operating Hours  
           // --------------------------------------------------- -->
-          <div class="served-by-desktop-a--home-header-operating-hours">
+          <div class="served-by-desktop-a--home-header-operating-hours" style="box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 40%);">
             <div class="served-by-desktop-b">
               <div class="served-by-desktop-d">
                 <div size="32" class="served-by-desktop-e" style="position: relative;top: -2px;">
@@ -282,7 +282,7 @@
           <!-- --------------------------------------------------- -->
           <!-- @ What's new - Link to changelog  -->
           <!-- --------------------------------------------------- -->
-          <div class="home-header-whats-new-a">
+          <div class="home-header-whats-new-a" style="box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 40%);">
             <div class="home-header-whats-new-b">
               <div class="home-header-whats-new-d">
                 <div size="32" class="home-header-whats-new-e">
@@ -293,7 +293,7 @@
 
               <span
                 style="padding-left: 4px;color: rgba(255,255,255,0.8);font-size: 13px;font-weight: 400;position: relative;top: 5px;">
-                <span> {{'WhatsNew' | translate}} </span>
+                <span> Centro de ayuda de Facture.CR. </span>
                 <span class="tool_tip">
                   <span class="material-icons add-operators-icons tool_tip" (click)="goToChangelogBlog()"
                     style="vertical-align: middle;color:  rgba(255,255,255,0.8); font-size:18px; position: relative;cursor: pointer;transform: rotate(-90deg);top: 0px;">
@@ -315,7 +315,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div class="card"
-                style="border: unset !important;  background: #1a73e8;margin-top: 18px;margin-bottom: 18px;">
+                style="border: unset !important;  background: #051f4b;margin-top: 18px;margin-bottom: 18px;">
                 <div class="card-content" style="padding-left:0px; padding-right:0px">
                   <!-- <h3 class="getting-started-card-title-home-header">{{'TakeAShortcut' | translate}}</h3>
                   <p class="getting-started-card-subtitle-home-header">{{'JumpStraightToTheMostPopularSettingsInTheDashboard' | translate}}. </p> -->
@@ -332,12 +332,12 @@
                           <style type="text/css">
                             .st0_chat_in_header {
                               opacity: 1;
-                              fill: #ffffff;
+                              fill: #ffffffdb;
                               enable-background: new;
                             }
 
                             .st1_chat_in_header {
-                              fill: #A221FE;
+                              fill: #009688;
                             }
                           </style>
                           <g transform="translate(7717.829 6141.832)">
@@ -371,7 +371,7 @@
                           <style type="text/css">
                             .st0_customize_widget_in_header {
                               opacity: 1;
-                              fill: #ffffff;
+                              fill: #ffffffdb;
                               enable-background: new;
                             }
 
@@ -409,7 +409,7 @@
                           <style type="text/css">
                             .st0_conversations {
                               opacity: 1;
-                              fill: #ffffff;
+                              fill: #ffffffdb;
                               enable-background: new;
                             }
 
@@ -449,7 +449,7 @@
                           <style type="text/css">
                             .st0_mobile_apps_in_header {
                               opacity: 1;
-                              fill: #ffffff;
+                              fill: #ffffffdb;
                               enable-background: new;
                             }
 
@@ -484,7 +484,7 @@
                           <style type="text/css">
                             .st0_appstore_in_header {
                               opacity: 1;
-                              fill: #ffffff;
+                              fill: #ffffffdb;
                               enable-background: new;
                             }
 
@@ -954,8 +954,8 @@
     <!-- -------------------------------------------------------- -->
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <!-- style="margin-left:15px; margin-right:15px" -->
-      <div class="card getting-started-card" >
-        <div class="card-content">
+      <div class="card getting-started-card" style="border-radius: 20px;">
+        <div class="card-content" style="background-color: #e5eeff; border-radius: 20px;">
           <div class="row">
             <div class="col-xs-3">
 
@@ -977,7 +977,7 @@
             </div>
             <div class="col-xs-9">
 
-              <h3 class="getting-started-card-title">{{ 'GettingStartedWith' | translate }} {{company_name}}</h3>
+              <h3 class="getting-started-card-title">{{ 'GettingStartedWith' | translate }} Facture.cr</h3>
               <p class="getting-started-card-subtitle">{{ 'HereIsAListOfPagesAndLinks' | translate}}</p>
 
               <ul style="list-style: none; padding-left:0px; line-height: 33px;">
@@ -1051,7 +1051,7 @@
     <!-- --------------------------------------------------- -->
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <!-- <div class="card">
-        <div class="card-content">
+        <div class="card-content" style="background: #f0ffff;">
           <div class="row">
             <div class="col-xs-12">
               <div id="futureproof"> 
@@ -1112,8 +1112,8 @@
         </div>
       </div> -->
       <!-- style="margin-left:15px; margin-right:15px" -->
-      <div class="card last-updated-card" >
-        <div class="card-content">
+      <div class="card last-updated-card" style="border-radius: 20px;">
+        <div class="card-content" style="background-color: #e5eeff; border-radius: 20px;">
           <div class="row">
             <div class="col-xs-3">
               <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg"
@@ -1190,14 +1190,14 @@
             </div>
 
             <div class="col-xs-9">
-              <h3 class="getting-started-card-title">{{ 'LatestUpdates' | translate }}</h3>
+              <h3 class="getting-started-card-title">Últimas noticias que debes saber</h3>
               <ul style="list-style: none; padding-left:0px; line-height: 33px;">
 
                 <li class="arrow-container" style="font-size: 18px; color: #0f62ff; font-weight: 400;"
                   (click)="goToChangelogBlog()">
                   <div id="arrow_1" class="arrow-wrapper">
                     <div class="text-block" style="margin-right: 16px;position: relative;top: -2px;">
-                      {{ 'ReadMoreOnOurBlog' | translate }}
+                      Lee o guiate en nuestro centro de ayuda de <strong>Facture.CR</strong>.
                     </div>
                     <div class="arrow arrow--right">
                       <span></span>
@@ -1206,32 +1206,37 @@
                 </li>
               </ul>
               <div id=slideset6>
+
                 <div class="slide">
                   <p class="meta">
-                    <strong>Multilanguage</strong>
-                    <span>February 2021</span>
+                    <strong>Definir las horas de funcionamiento/Laborales</strong>
+                    <span>Abril 2021</span>
                   </p>
-                  <p>You can now choose the widget default language in the new wizard step 'configure widget' and
-                    change it in the new widget set up page
+                  <p>Cuando el horario de atención está habilitado, los agentes no pueden recibir mensajes de los usuarios finales fuera del horario laboral programado, independientemente de la disponibilidad de los agentes .
+                    <br>
+                    Si el horario de atención está habilitado, cuando un cliente se pone en contacto fuera de su horario de oficina, se crea una nueva conversación sin asignar.
                   </p>
                 </div>
+
                 <div class="slide">
                   <p class="meta">
-                    <strong>Routing & departments </strong>
-                    <span>February 2021</span>
+                    <strong>Monitoreo y Control de Usuarios</strong>
+                    <span>Abril 2021</span>
                   </p>
-                  <p>You can now create group 'on the fly' while you are creating a new department.
+                  <p>Cada miembro sera monitoreado, por su eficacia, velocidad de respuesta, horas de atencion y Chats pendientes/atendidas/Actuales entre otros...
+                    <br><br>
+                    Tambien habra departamentos para x situaciones y conversaciones.
                   </p>
                 </div>
+
                 <div class="slide">
                   <p class="meta">
-                    <strong>Notification emails</strong>
-                    <span>February 2021</span>
+                    <strong>Correos electrónicos de notificación</strong>
+                    <span>Abril 2021</span>
                   </p>
-                  <p>You can now choose whether to receive notification email when a conversation is assigned or
-                    unassigned.
-                  </p>
+                  <p>Ahora puede elegir si desea recibir un correo electrónico de notificación cuando se asigna o se desasigna una conversación y de allí ver la información del cliente y su respectivo mensaje.</p>
                 </div>
+
               </div>
             </div>
           </div>

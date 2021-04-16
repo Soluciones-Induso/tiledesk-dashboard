@@ -2,7 +2,7 @@
 /****** LOGIN ******/
 .signup-button {
   width: 100%;
-  background-color: $brand-auth-pages-buttons-color !important;
+  background-color: #2196f3 !important;
   height: 56px;
   font-size: 16px;
   letter-spacing: 2px;
@@ -93,7 +93,7 @@ input:-webkit-autofill {
   width: 40%;
   left: 0;
   // background-color: #f0806f;
-  background-color: $brand-secodary;
+  background-color: #083263;
 }
 
 .right {
@@ -255,15 +255,15 @@ input.secure {
 }
 
 .brand-background-image {
-  background-image: url(assets/img/rocket-login-page.svg);
+  background-image: url(assets/img/logos/facture_iconc.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center bottom 80px;
 }
 
 .no_brand-background-image {
-  background-image: url(assets/img/rocket-login-page_no_brand.svg);
+  background-image: url(assets/img/logos/facture_iconc.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center bottom 80px;
 }
 
 // @import "./src/assets/sass/md/_variables.scss";
